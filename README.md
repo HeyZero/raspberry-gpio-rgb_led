@@ -34,28 +34,27 @@
 
     [rgb1.py](/rgb1.py)
 
-2. 运行
+2. 运行  
     `python3 rgb1.py`
 
 ### 2.WiringPi控制GPIO
 
 #### 2.1.安装WiringPi
-1. 下载
-	
+1. 下载  
 	`git clone git://git.drogon.net/wiringPi`
 	
-2. 编译
+2. 编译  
 	`cd wiringPi`  
 	`./build`
 
-3. 验证
+3. 验证  
 	`gpio -v`
 #### 2.2.控制GPIO
 1. 源代码
 
    [rgb2.c](/rgb2.c)
 
-2. 编译并运行
+2. 编译并运行  
     `gcc -Wall rgb2.c -o rgb2 -lwiringPi`  
     `sudo ./led2`
 
