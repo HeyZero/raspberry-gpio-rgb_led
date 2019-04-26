@@ -45,7 +45,7 @@
 	`git clone git://git.drogon.net/wiringPi`
 	
 2. 编译
-	`cd wiringPi`
+	`cd wiringPi`  
 	`./build`
 
 3. 验证
@@ -56,7 +56,7 @@
    [rgb2.c](/rgb2.c)
 
 2. 编译并运行
-    `gcc -Wall rgb2.c -o rgb2 -lwiringPi`
+    `gcc -Wall rgb2.c -o rgb2 -lwiringPi`  
     `sudo ./led2`
 
 ## 三、实验结果
